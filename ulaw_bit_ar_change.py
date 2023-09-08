@@ -15,5 +15,4 @@ def move(path):
 
 from multiprocessing import Pool
 with Pool(12) as p:
-     print(p.map(move , files[0:500]))
-~                                         
+     print(p.map(move , files[0:500]))                     
